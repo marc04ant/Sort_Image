@@ -11,18 +11,18 @@ Main function : This python program is designed to facilitate the selection of i
 
 **How the program work :**
 
-First of all we import necessary packages, such as **os** for working with the operating system, **tkinter** for creating the graphic interface, and **Pillow** for image processing and display.
-The code defines a class called **ImageViewer**, which handles the main window and allows for image display.
-The __init__ method initializes the ImageViewer object by providing the root (Tkinter window), image paths, and destination folder.
-Various buttons and a canvas with a green circle are created using the **Label, Button, and Canvas widgets from tkinter**.
-The **show_current_image** method displays the image at a specific index.
-The **show_next_image** and **show_prev_image** methods navigate to the next and previous images.
-The **select_image** method copies the current displayed image into the destination folder.
-The **deselect_image** method removes the image from the storage folder and hides the green circle.
-The **copy_image_to_specific_folder** method copies an image to the destination folder.
-The **update_deselect_button_state** method enables or disables the deselect button based on whether the current image is in the destination folder.
-The **is_image_selected** method checks if the image corresponding to a given image path is present in the destination folder.
-The **get_image_paths** function returns the full path of the current image in the list of all images in the directory.
-The __name__ == "__main__" block runs the program if it is executed as the main module.
-The program prompts the user to select directories using file dialogs from tkinter.
-The ImageViewer class is called, and the tkinter main loop (root.mainloop()) is started to display the graphical interface.
+1. First of all we import necessary packages, such as **os** for working with the operating system, **tkinter** for creating the graphic interface, and 2. **Pillow** for image processing and display.
+3. The code defines a class called **ImageViewer**, which handles the main window and allows for image display.
+4. The __init__ method initializes the ImageViewer object by providing the root (Tkinter window), image paths, and destination folder.
+5. Various buttons and a canvas with a green circle are created using the **Label, Button, and Canvas widgets from tkinter**.
+6. The **show_current_image** method displays the image at a specific index.
+7. The **show_next_image** and **show_prev_image** methods navigate to the next and previous images.
+8. The **select_image** method copies the current displayed image into the destination folder.
+9. The **deselect_image** method removes the image from the storage folder and hides the green circle.
+10. The **copy_image_to_specific_folder** method copies an image to the destination folder.
+11. The **update_deselect_button_state** method enables or disables the deselect button based on whether the current image is in the destination folder.
+12. The **is_image_selected** method checks if the image corresponding to a given image path is present in the destination folder.
+13. The **get_image_paths** function returns the full path of the current image in the list of all images in the directory.
+14. The __name__ == "__main__" block runs the program if it is executed as the main module.
+15. The program prompts the user to select directories using file dialogs from tkinter.
+16. The ImageViewer class is called, and the tkinter main loop (root.mainloop()) is started to display the graphical interface.
