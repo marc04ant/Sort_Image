@@ -8,7 +8,8 @@ Main function : This python program is designed to facilitate the selection of i
 3. A Tkinter window will then open, displaying the first image from the chosen folder.<img width="1440" alt="Screenshot 2023-07-31 at 17 34 24" src="https://github.com/marc04ant/Sort_Image/assets/140739460/ef2ca525-1669-46c2-a942-f1452b455a2c">
 
 4. You can use the "Next" button to view the next image and the "Previous" button to go back to the previous image.
-5. There are also "Select" and "Deselect" buttons. Clicking "Select" will copy the image to the storage folder and display a small green circle to indicate it's selected. Clicking "Deselect" will remove the image from the storage folder and hide the green circle, indicating it's not selected.
+5. There are also "Select" and "Deselect" buttons. Clicking "Select" will copy the image to the storage folder and display a small green circle to indicate it's selected. Clicking "Deselect" will remove the image from the storage folder and hide the green circle, indicating it's not selected.<img width="1440" alt="Screenshot 2023-07-31 at 17 36 47" src="https://github.com/marc04ant/Sort_Image/assets/140739460/c6f31d38-bbbc-4bdf-a843-4950dc81eef2">
+
 6. When you're finished sorting all the images in the folder, simply close the program by clicking the small red cross at the top of the window.
 
 **How the program work :**
