@@ -26,3 +26,6 @@ Main function : This python program is designed to facilitate the selection of i
 14. The __name__ == "__main__" block runs the program if it is executed as the main module.
 15. The program prompts the user to select directories using file dialogs from tkinter.
 16. The ImageViewer class is called, and the tkinter main loop (root.mainloop()) is started to display the graphical interface.
+
+I have included more explainations details and comments directly on the code, to provide a better understanding. 
+
